@@ -1,5 +1,5 @@
 ---
-title: Jekyll과 minimal-mistakes 테마를 이용한 블로그 생성
+title: minimal-mistakes 테마를 이용한 블로그 생성
 categories:
   - Blogs
 tags:
@@ -8,13 +8,10 @@ tags:
   - minimal-mistakes
 ---
 
-# 발단
+# 서론
 기술적인 내용을 써보기 위해서 블로그를 시작하고 싶다는 생각은 항상 가지고 있었다. 이것저것 한참을 고민하다가 결국 Github Pages 기능과 Jekyll을 이용해서 구축해보기로 했다.
 
-# 테마 결정
-하지만 Jekyll(의 철자는 뭔가 계속 헷갈린다)의 수많은 테마를 보자니, 또 결정장애가 발생했다. 구글링을 하다보니 Github의 Star가 많은 minimal-mistakes 로 우선 시작해보기로 했다.
-
-# 준비
+# 준비작업
 - Github Pages 호스팅을 위해서는 특별한 이름의 리파지토리가 필요하다. `#{GITHUB_ID}.github.io` 라는 이름으로 리파지토리를 생성해야 한다. (Organization일 경우 Organization 이름을 넣으면 된다)
 - Ruby가 필요하다. 구축은 macOS Sierra 를 이용했으며, [Homebrew](https://brew.sh/index_ko.html)를 이용하면 Ruby를 손쉽게 설치할 수 있다. 
 - Gem을 이용해서 Jekyll 을 설치한다.
