@@ -15,7 +15,7 @@ tags:
 
 >### 준비작업
 
-- Github Pages 상에서 블로그 호스팅을 위해서는 특별한 이름의 repository가 필요
+- Github 상에서 블로그 호스팅을 위해서는 특별한 이름의 repository가 필요
 - {GITHUB_ID}.github.io 형태로 repository 생성
 
 
@@ -39,7 +39,7 @@ tags:
 
 
 >### 포스트 쓰기
-
+- _posts라는 폴더 생성 후, 해당 폴더내에 작성
 - 포스트는 특정 제목으로 작성(YYYY-MM-DD-{TITLE}.md)로 작성
 - 내용은 크게 두 부분으로 구분 
  - 메타데이터를 위한 yaml 부분
