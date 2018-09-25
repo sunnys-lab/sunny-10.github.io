@@ -9,16 +9,15 @@ tags:
 ---
 
 # 서론
-기술적인 내용을 써보기 위해서 블로그를 시작하고 싶다는 생각은 항상 가지고 있었다. 이것저것 한참을 고민하다가 결국 Github Pages 기능과 Jekyll을 이용해서 구축해보기로 했다.
+Github Pages상에 Jekyll 기반의 블로그 사이트 구축
 
 # 준비작업
-- Github Pages 호스팅을 위해서는 특별한 이름의 리파지토리가 필요하다. `#{GITHUB_ID}.github.io` 라는 이름으로 리파지토리를 생성해야 한다. (Organization일 경우 Organization 이름을 넣으면 된다)
-- Ruby가 필요하다. 구축은 macOS Sierra 를 이용했으며, [Homebrew](https://brew.sh/index_ko.html)를 이용하면 Ruby를 손쉽게 설치할 수 있다. 
-- Gem을 이용해서 Jekyll 을 설치한다.
+- Github Pages 상에서 블로그 호스팅을 위해서는 특별한 이름의 repository가 필요
+- `#{GITHUB_ID}.github.io` 라는 이름으로 리파지토리를 생성
 
 # 테마 페이지 가져오기
 
-> 아래 내용은 [minimal-misatakes의 퀵가이드](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) 를 참조해도 된다.
+> 아래 내용은 [minimal-misatakes의 퀵가이드](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) 를 참조하여 해도 된다.
 
 [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes) 에서 소스를 가져온다. Fork를 해도 되지만 그냥 소스를 다운받아서 옮기면 된다. 옮기기 전에 쓸데없는 것들은 삭제하자. 삭제해야 할 리스트는 아래와 같다.
 - `.editorconfig`
