@@ -1,5 +1,5 @@
 ---
-title: minimal-mistakes 테마를 이용한 GitHub 블로그 생성
+title: minimal-mistakes 테마를 이용한 GitHub 블로그 만들기
 categories:
   - Blogs
 tags:
