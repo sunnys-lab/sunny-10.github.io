@@ -7,11 +7,11 @@ tags:
   - Windows 10
 ---
 
->###Requirements
+>### Requirements
 - Python > 3.5
 - Nvidia CUDA GPU. (사용하고 있는 GPU가 CUDA 호환인지는 [여기](https://developer.nvidia.com/cuda-gpus)에서 확인 가능)
 
->###Setting up your Nvidia GPU
+>### Setting up your Nvidia GPU
 You need to install Cuda Toolkit 8.0 and cuDNN v5.1 as the GPU version works best with these.
 
 ##Download and install CUDA Toolkit
