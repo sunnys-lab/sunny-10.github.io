@@ -1,12 +1,20 @@
-Part 2: HDF5를 이용한 데이터 학습
+---
+title: HDF 포맷 Part 2: HDF5를 이용한 데이터 학습
+categories:
+  - keras
+tags:
+  - hdf5
+  - h5py
+  - keras
+---
 
-HDF5 포맷은 대용량 데이터를 처리하기 위한 파일 형식
+### HDF5를 이용한 데이터 학습
+- HDF5 포맷은 대용량 데이터를 처리하기 위한 파일 형식
 - 많은 양의 데이터를 안정적으로 저장가능
 - Random Access 및 빠른 검색 등을 지원
+- Python에서 HDF5를 다루기 위해서는 h5py 라는 모듈 설치가 필요
 
-Python에서 HDF5를 다루기 위해서는 h5py 라는 모듈 설치가 필요
-
-[1] h5py를 이용해 새로운 데이터셋을 만드는 방법 
+>## h5py를 이용해 새로운 데이터셋을 만드는 방법 
 
 #
 import numpy as np
